@@ -3,15 +3,20 @@ This project analyzes a bank marketing dataset to predict whether clients will s
 Dataset Information
 Source:Kaggle  (Bank marketing campaign data) 
 
+
+
+
+
+
 Size: 11,162 records with 17 features
 
 Target Variable: 'deposit' (binary: 'yes'/'no')
 
-Data Types:
-
-Numerical: age, balance, day, duration, campaign, pdays, previous
+Data Types: Numerical: age, balance, day, duration, campaign, pdays, previous
 
 Categorical: job, marital, education, default, housing, loan, contact, month, poutcome
+
+
 
 Key Findings from EDA
 Target Variable Distribution
@@ -42,6 +47,8 @@ Cellular contact (54.3% yes) outperforms telephone (50.4% yes)
 
 Fewer campaign contacts generally better for subscription
 
+
+
 Data Preprocessing
 Encoding:
 
@@ -54,6 +61,8 @@ Feature Selection:
 All features showed statistical significance (p<0.05) in chi-square/t-tests
 
 Correlation analysis showed no strong multicollinearity
+
+
 
 Machine Learning Models
 Models Implemented:
@@ -89,6 +98,13 @@ Random Forest Results:
            1       0.81     0.87      0.84      1607
 
     accuracy                           0.84      3349
+
+
+
+
+
+
+
 How to Use This Project
 Requirements:
 
